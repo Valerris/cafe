@@ -1,12 +1,8 @@
-Highcharts.chart('chart-tech-otraslevaya-specifika', {
+Highcharts.chart('chart-meri', {
   chart: {
     type: 'bar',
     backgroundColor: 'transparent',
-    spacing: [0, 0, 0, 0],
-    style: {
-      "fontSize": "11px"
-    },
-    height: 300
+    spacing: [0, 0, 0, 0]
   },
   title: {
     text: '',
@@ -32,7 +28,7 @@ Highcharts.chart('chart-tech-otraslevaya-specifika', {
   },
   xAxis: {
     lineColor: 'transparent',
-    categories: ['ИТ (разработка игр, мобильные приложения, софт)', 'Промышленность и индустрия 4.0', 'Маркетинг, PR, реклама и медиа', 'Образование (коучинг, тренинги, преподавание, онлайн-курсы)', 'HRTech и консалтинг', 'Архитектура, дизайн, креативные индустрии'],
+    categories: ['Финансовая поддержка', 'Нет идей / Сами справимся', 'Построение каналов коммуникации', 'Четкие правила игры', 'Информационная поддержка', 'Госзаказы', 'Маркетинговая поддержка', 'Поиск клиентов', 'Юридическая поддержка', 'Государственные программы развития', 'Пилотные проекты с городом'],
     labels: {
       style: {
         color: '#D4D6DC'
@@ -70,6 +66,6 @@ Highcharts.chart('chart-tech-otraslevaya-specifika', {
       format: '{point.y}%',
       x: 45
     }],
-    data: [32, 14, 14, 8, 7, 7]
+    data: [31, 23, 14, 10, 5, 5, 4, 3, 2, 2, 1]
   }]
 });

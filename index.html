@@ -18,28 +18,29 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
-  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
-  <link rel="manifest" href="img/manifest.json">
+  <link rel="apple-touch-icon" sizes="57x57" href="src/img/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="src/img/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="src/img/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="src/img/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="src/img/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="src/img/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="src/img/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="src/img/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="src/img/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="src/img/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="src/img/favicon-96x96.png">
+  <link rel="manifest" href="src/img/manifest.json">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
-  <link rel="stylesheet" href="css/foundation.min.css">
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="src/css/foundation.min.css">
+  <!-- <link rel="stylesheet" href="src/css/app.css"> -->
+  <link rel="stylesheet" href="src/css/styles.css">
   <!-- <link rel="stylesheet" href="css/adaptive.css"> -->
-  <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="css/charts.css">
-  <link rel="stylesheet" href="css/fancy.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+  <link rel="stylesheet" href="src/css/charts.css">
+  <link rel="stylesheet" href="src/css/fancy.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 
@@ -50,7 +51,7 @@
   <script src="https://code.highcharts.com/modules/item-series.js"></script>
   <script src="https://code.highcharts.com/modules/exporting.js"></script>
   <script src="https://code.highcharts.com/modules/export-data.js"></script>
-  <script src="js/chartsrender.js"></script>
+  <script src="src/js/chartsrender.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" charset="utf-8"></script>
 
 </head>
@@ -60,20 +61,296 @@
 
     <div class="grid-container grid-container-padded">
 
+
       <div class="grid-x">
-        
+
+        <!-- 1 -->
+        <div class="cell divider"></div>
+        <div class="cell emerge" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+          <h3>Портрет аудитории</h3>
+        </div>
+        <div class="cell medium-5 emerge" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+          <p><b><span>55%</span> аудитории &mdash; это представители молодых компаний</b></p>
+          <div id="chart-portret-1"></div>
+        </div>
+        <div class="cell auto hide-for-small-only"></div>
+        <div class="cell medium-6 emerge" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+          <p><b>только <span>41%</span> &mdash; FinTech</b></p>
+          <div class="grid-x">
+            <div class="cell medium-6">
+              <p>Среди остальных компаний можно выделить несколько отраслей</p>
+              <small><span>8%</span> Маркетинг и реклама</small>
+              <small><span>7%</span> Промышленность и индустрия 4.0</small>
+              <small><span>4%</span> RetailTech и E-commerce</small>
+              <small><span>4%</span> HealthTech</small>
+              <small><span>4%</span> Научные организации и ВУЗы</small>
+            </div>
+            <div class="cell auto hide-for-small-only"></div>
+            <div class="cell medium-5">
+              <div id="chart-portret-2"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cell divider"></div>
+
+        <div class="cell medium-5 emerge"  data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+          <p><b>Больше всего было представителей небольших компаний &mdash; 3-10 человек, но в целом аудитория сбалансирована</b></p>
+          <div id="chart-portret-3"></div>
+        </div>
+        <div class="cell auto hide-for-small-only"></div>
+        <div class="cell medium-6 emerge"  data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+          <p><b>Несмотря на достаточно молодой возраст, большинство компаний находится на стадии устойчивого развития</b></p>
+          <div id="chart-portret-4"></div>
+        </div>
+
+        <div class="cell divider divider--dash"></div>
+
+
+
+        <!-- 2 -->
+        <div class="cell emerge" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+          <h3>Барьеры</h3>
+        </div>
+        <div class="cell emerge" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+          <p><b>Участники мероприятия настроены оптимистично &mdash; почти <span>40%</span> считают, что никакие барьеры и трудности не мешают развитию их бизнеса</b></p>
+          <div id="chart-bareri"></div>
+        </div>
+
+        <div class="cell divider"></div>
+
+        <div class="cell">
+          <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+            <div class="small-10 large-9 cell centered">
+              <span style="font-size: 3rem;">1</span>
+              <p><b>Отсутствие нормативов и законодательной базы, регулирующих деятельность</b></p>
+            </div>
+            <div class="cell small-2 large-3 tap"></div>
+          </div>
+          <div class="grid-x">
+            <div class="cell pd-left">
+              <p>Мнения участников о достаточности законодательной базы разделились:</p>
+              <ul>
+                <li>Часть считает, что необходимых законов, нормативов и сертификаций нет и это замедляет развитие бизнеса</li>
+                <li>Другие считают, что существующие законы избыточны и только усложняют бизнесс-процессы</li>
+              </ul>
+              <p>Среди конкретных сфер, требующих регулирования, респонденты чаще всего называли:</p>
+              <ul>
+                <li>Ограниченные возможности удаленной идентификации, в т.ч. зарубежных пользователей</li>
+                <li>Регулирование работы с персональными данными</li>
+                <li>Избыточность сертификации электронных компонентов, которая приводит к удорожанию отечественных приборов</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+            <div class="small-10 large-9 cell centered">
+              <span style="font-size: 3rem;">2</span>
+              <p><b>Ограниченные возможности в получении финансирования, высокие налоги и отсутствие льгот</b></p>
+            </div>
+            <div class="cell small-2 large-3 tap"></div>
+          </div>
+          <div class="grid-x">
+            <div class="cell pd-left">
+              <p>Участники отмечают недостаточный объем венчурного рынка в Москве и отсутствие выгодных кредитных схем</p>
+              <p>Среди финансовых барьеров также отмечают высокие налоги и отсутствие каких-либо налоговых льгот для развивающегося бизнеса</p>
+              <p>У инвесторов, которые могли бы стать драйверами в развитии стартапов, по мнению участников «нулевая толерантность к риску»: они не хотят вкладываться без гарантий возврата средств</p>
+            </div>
+          </div>
+
+          <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+            <div class="small-10 large-9 cell centered">
+              <span style="font-size: 3rem;">3</span>
+              <p><b>Сложно находить партнеров и заказчиков</b></p>
+            </div>
+            <div class="cell small-2 large-3 tap"></div>
+          </div>
+          <div class="grid-x">
+            <div class="cell pd-left">
+              <p>Для ряда участников отсутствие разнообразного нетворка становится препятствием в развитии бизнеса. При этом данная проблема формулируется двояко, в зависимости от того, на кого человек возлагает ответственность за решение проблемы:</p>
+              <ul>
+                <li>«Сети неохотно идут на диалог» / «Отсутствие открытого доступа к проектам заказчика». Участники считают, что причина сложности в поиске партнеров внешняя и должны быть [кем-то] созданы инструменты поддержки. Ответы такого типа преобладают</li>
+                <li>«Отсутствие связей» / «Отсутствие отраслевой кооперации». Участники считают, что не хватает их личных связей или связей внутри отрасли</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+            <div class="small-10 large-9 cell centered">
+              <span style="font-size: 3rem;">4</span>
+              <p><b>Взаимодействие с государственными организациями</b></p>
+            </div>
+            <div class="cell small-2 large-3 tap"></div>
+          </div>
+          <div class="grid-x">
+            <div class="cell pd-left">
+              <p>Участники отмечают высокий уровень бюрократии при взаимодействии с любыми государственными организациями отсутствие вовлеченности и информированности у чиновников:</p>
+              <ul>
+                <li>Отсутствие креатива и желания что-то менять</li>
+                <li>Длительные сроки рассмотрения заявок</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+            <div class="small-10 large-9 cell centered">
+              <span style="font-size: 3rem;">5</span>
+              <p><b>Внутренние проблемы организации</b></p>
+            </div>
+            <div class="cell small-2 large-3 tap"></div>
+          </div>
+          <div class="grid-x">
+            <div class="cell pd-left">
+              <p>Сюда относятся единичные ответы, которые характеризуют трудности, возникающие при построении любого бизнеса:</p>
+              <ul>
+                <li>Отсутствие квалифицированных кадров</li>
+                <li>Отсутствие стратегии и понимания основателем, на каком рынке им стоит работать и что рынку нужно</li>
+                <li>Высокая конкуренция</li>
+                <li>Снижение личной мотивации: пропал азарт</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+            <div class="small-10 large-9 cell centered">
+              <span style="font-size: 3rem;">6</span>
+              <p><b>Рынок для продукта плохо развит / клиент не осознает потребность</b></p>
+            </div>
+            <div class="cell small-2 large-3 tap"></div>
+          </div>
+          <div class="grid-x">
+            <div class="cell pd-left">
+              <p>Продукт или услуга компании новая (новым способом решает существующую проблему или решает проблему, которую потенциальный потребитель еще не осознал) и компания тратит много времени на объяснение эффектов и выгод </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="cell divider divider--dash"></div>
+        <div class="cell emerge" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+          <h3>Меры поддержки</h3>
+        </div>
+        <div class="cell emerge" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+          <p><b>Предсказуемо, самыми популярными мерами поддержки, которые предлагали участники, стали финансовые меры. Почти четверть не знают, что бы могло им помочь, либо считают, что справятся сами</b></p>
+          <div id="chart-meri"></div>
+        </div>
+
+        <div class="cell divider"></div>
+
+        <div class="cell">
+          <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+            <div class="small-10 large-9 cell centered">
+              <span style="font-size: 3rem;">1</span>
+              <p><b>Финансовая поддержка</b></p>
+            </div>
+            <div class="cell small-2 large-3 tap"></div>
+          </div>
+          <div class="grid-x">
+            <div class="cell pd-left">
+              <p>Большая часть участников не конкретизирует, какие именно меры финансовой поддержки могли бы им помочь. В отдельных случаях выделяются:</p>
+              <ul>
+                <li>Налоговые льготы</li>
+                <li>Льготные ставки по кредитам и сроки их погашения</li>
+                <li>Гранты</li>
+              </ul>
+              <p>Среди не-финансовых мер, которые, однако, позволят сократить расходы, предлагалось предоставление помещений в ЦАО в аренду по льготным ставкам</p>
+            </div>
+          </div>
+
+          <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+            <div class="small-10 large-9 cell centered">
+              <span style="font-size: 3rem;">2</span>
+              <p><b>Построение каналов коммуникации</b></p>
+            </div>
+            <div class="cell small-2 large-3 tap"></div>
+          </div>
+          <div class="grid-x">
+            <div class="cell pd-left">
+              <p>Участники отмечают важность площадок для коммуникации различного формата, которые помогли бы им:</p>
+              <ul>
+                <li>Знакомиться с партнерами, инвесторами, заказчиками</li>
+                <li>Быть в курсе особенностей развития рынка</li>
+                <li>Вдохновляться успешными кейсами коллег</li>
+              </ul>
+              <p>Среди возможных форматов выделяют регулярные открытые встречи (как Стартап кафе), так и закрытые (клубные) мероприятия</p>
+            </div>
+          </div>
+
+          <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+            <div class="small-10 large-9 cell centered">
+              <span style="font-size: 3rem;">3</span>
+              <p><b>Четкие правила игры</b></p>
+            </div>
+            <div class="cell small-2 large-3 tap"></div>
+          </div>
+          <div class="grid-x">
+            <div class="cell pd-left">
+              <p>Участники заинтересованы как в понятном и современном законодательстве, так и прозрачных правилах участия в конкурсах</p>
+              <p>Среди конкретных предложений были высказаны следующие:</p>
+              <ul>
+                <li>Определить понятие FinTech</li>
+                <li>Позволить малым компаниям выпускать акции</li>
+              </ul>
+              <p>Также отмечали необходимость работы с профессиональным сообществом на регулярной основе, например в формате рабочих групп, для выделения вопросов, которые нужно регулировать</p>
+            </div>
+          </div>
+
+          <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+            <div class="small-10 large-9 cell centered">
+              <span style="font-size: 3rem;">4</span>
+              <p><b>Информационная поддержка и просвещение</b></p>
+            </div>
+            <div class="cell small-2 large-3 tap"></div>
+          </div>
+          <div class="grid-x">
+            <div class="cell pd-left">
+              <p>Участникам хотели бы узнавать как о новых сервисах и мерах поддержки, так и перспективных направлениях развития рынка: «что сейчас нужно разработать»</p>
+              <p>Также отмечают важность просветительской работы среди чиновников и представителей корпораций. Они, по мнению участников, должны ориентироваться в технологической повестке и понимать важность инновационных решений</p>
+              <p>Перспективным направлением видится вовлечение в предпринимательство не молодежи, а состоявшихся профессионалов, имеющих достаточно собственных ресурсов для развития стартапа хотя бы до стадии раунда В</p>
+            </div>
+          </div>
+
+          <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+            <div class="small-10 large-9 cell centered">
+              <span style="font-size: 3rem;">5</span>
+              <p><b>Госзаказы и поиск клиентов</b></p>
+            </div>
+            <div class="cell small-2 large-3 tap"></div>
+          </div>
+          <div class="grid-x">
+            <div class="cell pd-left">
+              <p>Участники заинтересованы в сервисах, которые помогли бы им быстрее находить клиента. Для рынка B2G предлагают расширять и упрощать систему госзаказов. Для B2B и B2C не было высказано конкретных предложений</p>
+            </div>
+          </div>
+
+          <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
+            <div class="small-10 large-9 cell centered">
+              <span style="font-size: 3rem;">6</span>
+              <p><b>Развитие кадров и компетенций</b></p>
+            </div>
+            <div class="cell small-2 large-3 tap"></div>
+          </div>
+          <div class="grid-x">
+            <div class="cell pd-left">
+              <p>Участники встречи сделали фокус не только на развитии компетенций стартаперов (в первую очередь, предпринимательских), но на подготовке и повышении квалификации инвесторов</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cell divider"></div>
+        <div class="cell divider"></div>
+        <div class="cell divider divider--dash"></div>
+
       </div>
-
     </div>
-
   </div>
 
-  <script src="js/toggle.js" charset="utf-8"></script>
+  <script src="src/js/toggle.js" charset="utf-8"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="js/vendor/animatedModal.min.js"></script>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <script src="src/js/chart-portret.js" charset="utf-8"></script>
+  <script src="src/js/chart-bareri.js" charset="utf-8"></script>
+  <script src="src/js/chart-meri.js" charset="utf-8"></script>
 
 </body>
 </html>

@@ -1,0 +1,94 @@
+(function() {
+
+  Highcharts.chart('chart-bareri', {
+    chart: {
+      type: 'column',
+      backgroundColor: 'transparent',
+      spacing: [0, 0, 0, 0],
+      height: 200
+    },
+    title: {
+      text: ''
+    },
+    credits: {
+      enabled: false
+    },
+    tooltip: {
+      backgroundColor: '#eeeeee',
+      borderWidth: 0,
+      shadow: false,
+      headerFormat: '',
+      pointFormat: '{point.y}%'
+    },
+    xAxis: {
+      lineColor: 'transparent',
+      labels: {
+        style: {
+          color: '#D4D6DC'
+        }
+      },
+      categories: ['Барьеров нет', 'Нет нормативов/законодательной базы', 'Отсутствие/сложности в получении финансирования', 'отсутствие связей: сложно находить партнеров/клиентов', 'Взаимодействие с государственными организациями', 'Внутренние проблемы организации', 'Нет рынка/Потребности в продукте', 'не ответили на вопрос']
+    },
+    yAxis: {
+      min: 0,
+      gridLineColor: 'transparent',
+      lineColor: 'transparent',
+      max: 100,
+      labels: false,
+      verticalAlign: 'top',
+      title: {
+        text: ''
+      }
+    },
+    legend: {
+      enabled: false
+    },
+    exporting: {
+      enabled: false
+    },
+    "colors": [
+      "#FFBE02",
+      "#FE6102",
+      "#FFBE02",
+      "#F476BF",
+      "#9743B4",
+      "#E77B73",
+      "#F4CB59",
+      "#91e8e1"
+    ],
+    plotOptions: {
+      series: {
+        stacking: 'normal',
+        borderColor: 'transparent',
+        dataLabels: {
+          enabled: true,
+          borderWidth: 0,
+          textOutline: false,
+          format: '{point.y}%',
+          formatter: function() {
+            if (this.y != 0) {
+              return this.y;
+            }
+          },
+          filter: {
+            property: 'y',
+            operator: '>',
+            value: 1
+          },
+          style: {
+            textOutline: false
+          },
+          color: 'white'
+        }
+      }
+    },
+    series: [{
+      name: 'undefined',
+      data: [39, 18, 15, 7, 7, 6, 5, {color: "#494949", y: 3}],
+      animation: {
+        duration: 1000
+      }
+    }]
+  });
+
+})();
