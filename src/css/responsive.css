@@ -1,0 +1,597 @@
+@media print, screen and (min-width: 641px) and (max-width: 880px) {
+	.hblock {
+		display: none;
+	}
+
+	.himg {
+		width: 800px !important;
+		min-width: 800px !important;
+		height: auto;
+		margin: 0 0 0 50%;
+		position: relative;
+		left: -400px !important;
+		top: 200px !important;
+	}
+
+	.b1 {
+		width: 305px !important;
+		min-width: 305px !important;
+		height: auto;
+		margin: 0 0 0 50%;
+		position: relative;
+		left: -150px !important;
+		top: 130px !important;
+	}
+
+
+
+	.runmenu {
+		animation-name: movemenu;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		width: 100%;
+		z-index: 99!important;
+		position: relative !important;
+		top: auto !important;
+		left: auto !important;
+		right: auto !important;
+	}
+
+	.cmenu1,
+	.cmenu2,
+	.cmenu3,
+	.cmenu4,
+	.cmenu5,
+	.cmenu6
+	 {
+		cursor: pointer;
+		position: relative !important;
+		width: auto !important;
+		height: 50px !important;
+		top: auto !important;
+		left: auto !important;
+	}
+
+	.cmenu1 p,
+	.cmenu2 p,
+	.cmenu3 p,
+	.cmenu4 p,
+	.cmenu5 p,
+	.cmenu6 p {
+		cursor: pointer;
+		padding: 8px !important;
+		font-weight: 700;
+		font-size: 11px !important;
+		line-height: 12px !important;
+		color: white;
+	}
+
+	.hide-large {
+		display: block !important;
+	}
+
+	.cowork-header-mob {
+		padding: 20px 20px 0 20px;
+	}
+
+	.cowork-header-mob h1 {
+		font-family: 'Montserrat';
+		font-size: 14px;
+		line-height: 17px;
+		color: white;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	.cowork-header-mob p {
+		color: white;
+		opacity: .8;
+		font-size: 12px;
+		line-height: 14px;
+		padding: 10px 0px 0 0;
+	}
+
+	.cowork-header-mob p a {
+		color: white !important;
+		opacity: .8 !important;
+	}
+
+	.cowork-header-mob p a:hover {
+		color: white !important;
+		opacity: 1 !important;
+	}
+}
+
+@media print, screen and (max-width: 64em) {
+
+.reasons .reasons-block .reasons-block-text {
+	padding: 0 20px 0 20px;
+}
+
+
+.about-moscow-numbers .about-moscow-num-text {
+	padding: 0 20px 0 0;
+}
+
+.about-moscow-text {
+	padding: 0 5px 0 0 ;
+}
+
+.pics-container {
+	height: 12em;
+}
+
+.pics-p>p {
+	font-size: .8rem;
+	font-style: normal;
+	line-height: 1.1;
+}
+
+.color-block {
+	left: 10px;
+}
+
+.color-block>p {
+	font-size: .9rem;
+}
+
+.right-align {
+	text-align: left;
+}
+
+.estimate {
+  padding: 0 10px;
+  border-left: none;
+}
+
+.color-block {
+	left: 0;
+}
+
+.pics-p>p {
+	padding-right: 100px;
+}
+
+@media (orientation: landscape) {
+	.pics-p>p {
+		padding-right: 150px;
+	}
+}
+
+
+}
+
+@media (max-width: 63em) {
+	.modal-panel img {
+		height: 10em;
+	}
+}
+
+@media print, screen and (max-width: 40em) {
+
+.mainheader .mainheader-firstline {
+	min-height: 50px;
+}
+
+.mainheader .white-date {
+	height: 50px;
+	text-align: left;
+	padding-left: 20px;
+
+}
+
+.mainheader .mainmenu {
+	height: 50px;
+}
+
+.mainheader .language {
+	padding-right: 20px;
+	height: 50px;
+}
+
+.logotype-block {
+	padding-left: 20px !important;
+}
+
+.tagline .tagline-text {
+	margin: 50px 0 50px 0;
+}
+
+.tagline .tagline-mainnumbers {
+	margin: 0px 0 0 0;
+}
+
+.tagline .tagline-text .tagline-text-p {
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.tagline .logotype {
+	width: 100%;
+	max-width: 200px;
+	margin: 40px 0 40px 0;
+}
+
+.tagline .tagline-numbers .tagline-num-text {
+	font-size: 11px;
+	line-height: 11px !important;
+}
+
+.tagline .tagline-numbers .tagline-num {
+	font-size: 26px;
+	line-height: 29px !important;
+}
+
+.tagline {
+	border-top: 1px solid #ffffff;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	min-height: 480px;
+	margin-bottom: 50px;
+}
+
+.scem-topics {
+	padding-top: 20px;
+}
+
+.topics-margin {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.theme-link .theme-card {
+	height: 70px;
+}
+
+.theme-link .cover .chapter {
+	display: none;
+}
+
+.theme-link .theme-name {
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.reasons .reasons-block .reasons-block-text {
+	padding: 0 40px 0 40px;
+}
+
+.reasons {
+	background: white url('../img/bg1.png') repeat-x center bottom;
+	background-size: 100% 100%;
+	display: block;
+	padding-bottom: 30px;
+}
+
+.reasons .reasons-title {
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #65618D;
+	margin: 40px 0 30px 0;
+	padding: 0;
+	text-align: center;
+}
+
+.reasons .reasons-block {
+	margin-bottom: 30px;
+}
+
+.moscow-img .theme-card {
+	height: 120px;
+}
+
+.about-moscow-margin {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.about-moscow-numbers {
+	padding-left: 0px !important;
+	padding-right: 20px !important;
+}
+
+.about-moscow-title {
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #65618D;
+	margin: 50px 0 25px 0;
+	padding: 0;
+	text-align: left;
+}
+
+.about-moscow-text {
+	font-size: 14px;
+	line-height: 17px;
+	margin: 0px 0 20px 0;
+	padding: 0 0 0 0 ;
+}
+
+.why-vdnh .why-vdnh-title {
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #65618D;
+	margin: 50px 0 25px 0;
+	padding: 0 0 0 20px;
+	text-align: left;
+}
+
+.why-vdnh-text-block {
+	margin-left: 20px !important;
+}
+
+.vdnh-img .theme-card {
+	height: 200px;
+}
+
+.howto-title {
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #FFF;
+	margin: 50px 0 25px 0;
+	padding: 0 0 0 20px;
+	text-align: left;
+}
+
+.howto {
+	padding-bottom: 0px;
+}
+
+.howto-text {
+	color: white;
+	border-top: 1px solid white;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-collapse: collapse;
+	padding: 40px 0 40px 20px;
+}
+
+.theme-link:hover .cover {
+	background: none;
+}
+
+
+
+.himg {
+	width: 800px !important;
+	min-width: 800px !important;
+	height: auto;
+	margin: 0 0 0 50%;
+	position: relative;
+	left: -400px !important;
+	top: 200px !important;
+}
+
+.b1 {
+	width: 305px !important;
+	min-width: 305px !important;
+	height: auto;
+	margin: 0 0 0 50%;
+	position: relative;
+	left: -150px !important;
+	top: 130px !important;
+}
+
+
+
+.runmenu {
+	animation-name: movemenu;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	width: 100%;
+	z-index: 99!important;
+	position: relative !important;
+	top: auto !important;
+	left: auto !important;
+	right: auto !important;
+}
+
+.cmenu1,
+.cmenu2,
+.cmenu3,
+.cmenu4,
+.cmenu5,
+.cmenu6
+ {
+	cursor: pointer;
+	position: relative !important;
+	width: auto !important;
+	height: 50px !important;
+	top: auto !important;
+	left: auto !important;
+}
+
+.cmenu1 p,
+.cmenu2 p,
+.cmenu3 p,
+.cmenu4 p,
+.cmenu5 p,
+.cmenu6 p {
+	padding: 8px !important;
+	font-weight: 700;
+	font-size: 11px !important;
+	line-height: 12px !important;
+	color: white;
+}
+
+.hide-large {
+	display: block !important;
+}
+
+.cowork-header-mob {
+	padding: 20px 20px 0 20px;
+}
+
+.cowork-header-mob h1 {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	line-height: 17px;
+	color: white;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.cowork-header-mob p {
+	color: white;
+	opacity: 1;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 10px 0px 0 0;
+}
+
+.cowork-header-mob p a {
+	color: white !important;
+	opacity: .8 !important;
+}
+
+.cowork-header-mob p a:hover {
+	color: white !important;
+	opacity: 1 !important;
+}
+
+.animated-modal p {
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.cowork {
+	padding: 0 15px 0 15px;
+}
+
+.cowork h3 {
+	font-family: 'Montserrat';
+	font-size: 18px;
+	color: white;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.cowork p {
+	color: white;
+	font-size: 12px;
+	line-height: 15px;
+	padding: 10px 20px 0 0;
+}
+
+.mobtry {
+	overflow-x: scroll !important;
+}
+
+.mobtry2 {
+	width: 800px;
+}
+
+.portr2 {
+	vertical-align: top;
+	opacity: .5;
+	letter-spacing: 4px;
+	font-weight: 700;
+	font-size: 14px !important;
+	position: relative !important;
+	right: auto;
+	top: auto;
+	width: auto;
+	height: 20px !important;
+	-moz-transform: none !important;
+	-o-transform: none !important;
+	-webkit-transform: none !important;
+	filter: none !important;
+	-ms-filter:  none !important;
+	transform:  none !important;
+
+}
+
+#chart-smena-rabochego-mesta {
+	width: 100% !important;
+	height: auto !important;
+}
+
+.mobico1 {
+	width: 40px !important;
+}
+
+.aligned {
+	text-align: left;
+}
+
+.icon-size {
+	width: 20vw !important;
+}
+
+.icon {
+	text-align: left;
+	/* margin-left: 1rem; */
+}
+
+.estimate {
+  padding: 0;
+	padding-right: 35px;
+}
+
+@media (orientation: landscape) {
+	.pics-p>p {
+		padding-right: 200px;
+	}
+}
+
+.color-block {
+	left: 10px;
+}
+
+
+#fly6>div {
+	height: 55px !important;
+}
+
+.marg {
+	margin-top: 2em;
+}
+
+.scrll {
+	position: relative;
+}
+
+.scrll::after {
+    content: " ";
+    position: absolute;
+    top: 1.5em;
+    left: 0;
+    width: 1rem;
+    height: 100%;
+    background: url(../img/more-arrow.svg) no-repeat center center;
+}
+
+.modal-panel .conumbers span {
+	padding-right: 0 !important;
+}
+
+.sm {
+	width: 64px !important;
+}
+
+
+
+}
+
+@media (min-width: 64em) {
+	div.m {
+		margin-left: 5px !important;
+	}
+}
