@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,6 +43,9 @@
   <link rel="stylesheet" href="src/css/charts.css">
   <link rel="stylesheet" href="src/css/fancy.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
@@ -55,22 +59,54 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" charset="utf-8"></script>
 
 </head>
+
 <body>
 
   <div class="wrapper">
 
-    <div class="grid-container grid-container-padded">
 
+    <!-- Header -->
+    <div class="grid-x header">
+      <div class="cell logo-container">
+        <a class="logo logo--dpm" href="">Департамент предпринимательства</a>
+        <a class="logo logo--aim" href="">АИМ</a>
+        <a class="logo logo--cdp" href="">ЦДП</a>
+      </div>
+      <h1 class="cell">
+        <span class="header-name header-name--top">Стартап кафе</span><span class="header-name header-name--bottom">FinTech</span>
+      </h1>
+      <div class="cell date-container">
+        <p class="date">24 июля 2019</p>
+      </div>
+      <div class="cell">
+      <div class="grid-x">
+        <div class="cell medium-2">
+          <p class="header__text">Генеральный<br>информационный партнер</p>
+        </div>
+        <div class="cell medium-10 aligned">
+          <p class="header__text">Информационные партнеры</p>
+        </div>
+        <div class="cell medium-2 logo-container">
+          <a href="" class="logo logo--partner-1">Rusbase</a>
+        </div>
+        <div class="cell medium-10 logo-container">
+          <a href="" class="logo logo--partner-2">TinTech Lab</a>
+          <a href="" class="logo logo--partner-3">StartTrack</a>
+          <a href="" class="logo logo--partner-4">FinTech Power</a>
+          <a href="" class="logo logo--partner-5">Bloom chain</a>
+          <a href="" class="logo logo--partner-6">ICT Moscow</a>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+    <div class="grid-container grid-container-padded">
 
       <div class="grid-x">
 
-        <!-- Header -->
-        <div class="header">
-          <h1>Стартап кафе<br> FinTech</h1>
-        </div>
-
         <!-- 1 -->
-        <div class="cell divider"></div>
+        <div class="cell divider divider--dash"></div>
         <div class="cell emerge" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
           <h3>Портрет аудитории</h3>
         </div>
@@ -127,7 +163,7 @@
         <div class="cell">
           <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
             <div class="small-10 large-9 cell centered">
-              <span style="font-size: 3rem;">1</span>
+              <span class="aligned-center" style="font-size: 3rem;">1</span>
               <p><b>Отсутствие нормативов и законодательной базы, регулирующих деятельность</b></p>
             </div>
             <div class="cell small-2 large-3 tap"></div>
@@ -150,7 +186,7 @@
 
           <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
             <div class="small-10 large-9 cell centered">
-              <span style="font-size: 3rem;">2</span>
+              <span class="aligned-center" style="font-size: 3rem;">2</span>
               <p><b>Ограниченные возможности в получении финансирования, высокие налоги и отсутствие льгот</b></p>
             </div>
             <div class="cell small-2 large-3 tap"></div>
@@ -165,16 +201,18 @@
 
           <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
             <div class="small-10 large-9 cell centered">
-              <span style="font-size: 3rem;">3</span>
+              <span class="aligned-center" style="font-size: 3rem;">3</span>
               <p><b>Сложно находить партнеров и заказчиков</b></p>
             </div>
             <div class="cell small-2 large-3 tap"></div>
           </div>
           <div class="grid-x">
             <div class="cell pd-left">
-              <p>Для ряда участников отсутствие разнообразного нетворка становится препятствием в развитии бизнеса. При этом данная проблема формулируется двояко, в зависимости от того, на кого человек возлагает ответственность за решение проблемы:</p>
+              <p>Для ряда участников отсутствие разнообразного нетворка становится препятствием в развитии бизнеса. При этом данная проблема формулируется двояко, в зависимости от того, на кого человек возлагает ответственность за решение проблемы:
+              </p>
               <ul>
-                <li>«Сети неохотно идут на диалог» / «Отсутствие открытого доступа к проектам заказчика». Участники считают, что причина сложности в поиске партнеров внешняя и должны быть [кем-то] созданы инструменты поддержки. Ответы такого типа преобладают</li>
+                <li>«Сети неохотно идут на диалог» / «Отсутствие открытого доступа к проектам заказчика». Участники считают, что причина сложности в поиске партнеров внешняя и должны быть [кем-то] созданы инструменты поддержки. Ответы такого типа
+                  преобладают</li>
                 <li>«Отсутствие связей» / «Отсутствие отраслевой кооперации». Участники считают, что не хватает их личных связей или связей внутри отрасли</li>
               </ul>
             </div>
@@ -182,7 +220,7 @@
 
           <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
             <div class="small-10 large-9 cell centered">
-              <span style="font-size: 3rem;">4</span>
+              <span class="aligned-center" style="font-size: 3rem;">4</span>
               <p><b>Взаимодействие с государственными организациями</b></p>
             </div>
             <div class="cell small-2 large-3 tap"></div>
@@ -199,7 +237,7 @@
 
           <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
             <div class="small-10 large-9 cell centered">
-              <span style="font-size: 3rem;">5</span>
+              <span class="aligned-center" style="font-size: 3rem;">5</span>
               <p><b>Внутренние проблемы организации</b></p>
             </div>
             <div class="cell small-2 large-3 tap"></div>
@@ -218,7 +256,7 @@
 
           <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
             <div class="small-10 large-9 cell centered">
-              <span style="font-size: 3rem;">6</span>
+              <span class="aligned-center" style="font-size: 3rem;">6</span>
               <p><b>Рынок для продукта плохо развит / клиент не осознает потребность</b></p>
             </div>
             <div class="cell small-2 large-3 tap"></div>
@@ -245,7 +283,7 @@
         <div class="cell">
           <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
             <div class="small-10 large-9 cell centered">
-              <span style="font-size: 3rem;">1</span>
+              <span class="aligned-center" style="font-size: 3rem;">1</span>
               <p><b>Финансовая поддержка</b></p>
             </div>
             <div class="cell small-2 large-3 tap"></div>
@@ -264,7 +302,7 @@
 
           <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
             <div class="small-10 large-9 cell centered">
-              <span style="font-size: 3rem;">2</span>
+              <span class="aligned-center" style="font-size: 3rem;">2</span>
               <p><b>Построение каналов коммуникации</b></p>
             </div>
             <div class="cell small-2 large-3 tap"></div>
@@ -283,7 +321,7 @@
 
           <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
             <div class="small-10 large-9 cell centered">
-              <span style="font-size: 3rem;">3</span>
+              <span class="aligned-center" style="font-size: 3rem;">3</span>
               <p><b>Четкие правила игры</b></p>
             </div>
             <div class="cell small-2 large-3 tap"></div>
@@ -302,7 +340,7 @@
 
           <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
             <div class="small-10 large-9 cell centered">
-              <span style="font-size: 3rem;">4</span>
+              <span class="aligned-center" style="font-size: 3rem;">4</span>
               <p><b>Информационная поддержка и просвещение</b></p>
             </div>
             <div class="cell small-2 large-3 tap"></div>
@@ -317,7 +355,7 @@
 
           <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
             <div class="small-10 large-9 cell centered">
-              <span style="font-size: 3rem;">5</span>
+              <span class="aligned-center" style="font-size: 3rem;">5</span>
               <p><b>Госзаказы и поиск клиентов</b></p>
             </div>
             <div class="cell small-2 large-3 tap"></div>
@@ -330,7 +368,7 @@
 
           <div class="grid-x emerge toggle" data-effect="relax" data-scale=".5" data-origin="bottom" data-expose="true">
             <div class="small-10 large-9 cell centered">
-              <span style="font-size: 3rem;">6</span>
+              <span class="aligned-center" style="font-size: 3rem;">6</span>
               <p><b>Развитие кадров и компетенций</b></p>
             </div>
             <div class="cell small-2 large-3 tap"></div>
@@ -358,4 +396,5 @@
   <script src="src/js/chart-meri.js" charset="utf-8"></script>
 
 </body>
+
 </html>
