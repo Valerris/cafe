@@ -2,7 +2,8 @@ Highcharts.chart('chart-meri', {
   chart: {
     type: 'bar',
     backgroundColor: 'transparent',
-    spacing: [0, 0, 0, 0]
+    spacing: [0, 0, 0, 0],
+    height: 300
   },
   title: {
     text: '',
@@ -50,7 +51,7 @@ Highcharts.chart('chart-meri', {
       dataLabels: {
         enabled: true,
         inside: true,
-        color: '#fff'
+        color: '#757575'
       },
       groupPadding: 0,
       pointPadding: 0,

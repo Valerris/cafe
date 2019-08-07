@@ -413,7 +413,7 @@
     },
     series: [{
       name: 'undefined',
-      data: [13, 12, 13, 15, 34, {color: "#494949", y: 13}],
+      data: [13, 12, 13, 15, 34, {color: "#f2f2f2", y: 13}],
       animation: {
         duration: 1000
       }

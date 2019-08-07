@@ -2,10 +2,10 @@
 
   Highcharts.chart('chart-bareri', {
     chart: {
-      type: 'column',
+      type: 'bar',
       backgroundColor: 'transparent',
       spacing: [0, 0, 0, 0],
-      height: 200
+      height: 350
     },
     title: {
       text: ''
@@ -84,7 +84,7 @@
     },
     series: [{
       name: 'undefined',
-      data: [39, 18, 15, 7, 7, 6, 5, {color: "#494949", y: 3}],
+      data: [39, 18, 15, 7, 7, 6, 5, {color: "#f2f2f2", y: 3}],
       animation: {
         duration: 1000
       }

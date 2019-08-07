@@ -276,9 +276,6 @@ p.date:first-of-type {
 }
 
 /* Utilities */
-.centered {
-  text-align: center;
-}
 
 .aligned {
   display: flex;
