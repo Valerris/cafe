@@ -57,6 +57,7 @@ h3 {
   font-size: 2rem;
   font-weight: 300;
   margin-bottom: .5em;
+  text-shadow: 0px 5px 3px rgba(73, 73, 73, 0.3);
 }
 
 p, li {
@@ -83,6 +84,7 @@ span {
   text-shadow: 0 1px 60px #555;
   display: inline-block;
   min-width: 3rem;
+  text-shadow: 0px 5px 3px rgba(73, 73, 73, 0.25);
 }
 
 small {
@@ -119,6 +121,7 @@ small>span {
   text-shadow: none;
   display: block;
   font-size: 1em;
+  text-shadow: 0px 5px 3px rgba(73, 73, 73, 0.5);
 }
 
 .header-name--top {
