@@ -48,7 +48,7 @@
       enabled: false
     },
     "colors": [
-      "#25b8ec",
+      "#7fa0e1",
       "#edb2cc",
       "#60b4d4",
       "#5763aa",
@@ -141,7 +141,7 @@
       enabled: false
     },
     "colors": [
-      "#25b8ec",
+      "#7fa0e1",
       "#edb2cc",
       "#60b4d4",
       "#5763aa",
@@ -253,7 +253,7 @@
       enabled: false
     },
     "colors": [
-      "#25b8ec",
+      "#7fa0e1",
       "#edb2cc",
       "#60b4d4",
       "#6043d4",

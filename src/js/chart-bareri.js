@@ -47,7 +47,7 @@
       enabled: false
     },
     "colors": [
-      "#ab5160",
+      "#bab0fc",
       "#25b8ec",
       "#edb2cc",
       "#5763aa",
