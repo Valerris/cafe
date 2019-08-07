@@ -45,7 +45,7 @@ h3 {
   margin-bottom: .5em;
 }
 
-p {
+p, li {
   color: inherit;
   font-size: .95rem;
   line-height: 1.2;
@@ -138,6 +138,7 @@ p:first-of-type.header__text {
   display: inline-block;
   text-indent: -999em;
   min-height: 3em;
+  min-width: 5em;
   background-size: contain;
   margin: 1em;
   flex: auto;
@@ -164,19 +165,19 @@ p:first-of-type.header__text {
 .logo--partner-1 {
   background-image: url("../img/partner11.svg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: left center;
 }
 
 .logo--partner-2 {
   background-image: url("../img/partner22.svg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: left center;
 }
 
 .logo--partner-3 {
   background-image: url("../img/partner3.svg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: left center;
 }
 
 .logo--partner-4 {
@@ -192,7 +193,7 @@ p:first-of-type.header__text {
 }
 
 .logo--partner-6 {
-  background-image: url("../img/partner6.svg");
+  background-image: url("../img/partner6.png");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -230,6 +231,10 @@ p.date:first-of-type {
 
 .toggle:hover {
   background-color: rgba(153, 149, 138, 0.1);
+}
+
+.toggle p {
+  text-decoration: underline;
 }
 
 .tap {
