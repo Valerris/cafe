@@ -48,15 +48,18 @@ Highcharts.chart('chart-meri', {
   },
   plotOptions: {
     series: {
+      borderColor: 'transparent',
       dataLabels: {
         enabled: true,
-        inside: true,
-        color: '#757575'
+        color: '#757575',
+        style: {
+          textOutline: false
+        }
       },
       groupPadding: 0,
       pointPadding: 0,
       pointWidth: 15,
-      color: '#000'
+      color: '#757575'
     }
   },
   series: [{
@@ -66,7 +69,8 @@ Highcharts.chart('chart-meri', {
     dataLabels: [{
       align: 'right',
       format: '{point.y}%',
-      x: 45
+      x: 45,
+      color: "#757575"
     }],
     data: [31, 23, 14, 10, 5, 5, 4, 3, 2, 2, 1]
   }]

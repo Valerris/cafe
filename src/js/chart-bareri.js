@@ -33,7 +33,7 @@
       min: 0,
       gridLineColor: 'transparent',
       lineColor: 'transparent',
-      max: 100,
+      max: 45,
       labels: false,
       verticalAlign: 'top',
       title: {

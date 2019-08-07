@@ -34,7 +34,7 @@
       min: 0,
       gridLineColor: 'transparent',
       lineColor: 'transparent',
-      max: 100,
+      max: 33,
       labels: false,
       verticalAlign: 'top',
       title: {
@@ -132,7 +132,7 @@
         fontWeight: 'bold'
       },
       itemHoverStyle: {
-        color: '#FFFFFF',
+        color: '#000',
         fontWeight: 'bold'
       },
       layout: 'horizontal'
@@ -244,7 +244,7 @@
         fontWeight: 'bold'
       },
       itemHoverStyle: {
-        color: '#FFFFFF',
+        color: '#000',
         fontWeight: 'bold'
       },
       layout: 'horizontal'
@@ -362,7 +362,7 @@
       min: 0,
       gridLineColor: 'transparent',
       lineColor: 'transparent',
-      max: 100,
+      max: 35,
       labels: false,
       verticalAlign: 'top',
       title: {
