@@ -240,6 +240,7 @@ p:first-of-type.header__text {
   font-size: 2em;
   font-weight: 700;
   text-align: center;
+  text-shadow: 0px 3px 1px rgba(250, 250, 250, 0.15);
 }
 
 p.date:first-of-type {
