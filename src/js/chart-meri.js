@@ -3,7 +3,7 @@ Highcharts.chart('chart-meri', {
     type: 'bar',
     backgroundColor: 'transparent',
     spacing: [0, 0, 0, 0],
-    height: 300
+    height: 275
   },
   title: {
     text: '',

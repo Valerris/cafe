@@ -6,7 +6,7 @@
       type: 'column',
       backgroundColor: 'transparent',
       spacing: [0, 0, 0, 0],
-      height: 300
+      height: 250
     },
     title: {
       text: ''
@@ -79,7 +79,7 @@
           style: {
             textOutline: false
           },
-          color: 'white'
+          color: '#000'
         }
       }
     },
@@ -97,9 +97,9 @@
     chart: {
       type: 'pie',
       backgroundColor: 'transparent',
-      // spacing: [50, 50, 50, 50],
-      // margin: [10, 10, 100, 10],
-      height: 300
+      spacing: [0, 0, 0, 0],
+      margin: [0, 0, 0, 0],
+      height: 250
     },
     title: {
       text: ''
@@ -190,7 +190,7 @@
     },
     series: [{
       name: 'Brands',
-      startAngle: 145,
+      startAngle: 200,
       colorByPoint: true,
       data: [{
         name: 'FinTech',
@@ -334,7 +334,7 @@
       type: 'column',
       backgroundColor: 'transparent',
       spacing: [0, 0, 0, 0],
-      height: 300
+      height: 280
     },
     title: {
       text: ''
