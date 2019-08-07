@@ -11,7 +11,11 @@ html {
 }
 
 body {
-  background-color: rgba(148,187,233,.45);
+  /* background-color: rgba(148,187,233,.45); */
+  background: #000;
+  background: -webkit-radial-gradient(bottom, transparent, #CEE1F5);
+  background: -moz-radial-gradient(bottom, transparent, #CEE1F5);
+  background: radial-gradient(to top, #E2C2DA, #CEE1F5);
   line-height: 1.33;
   word-spacing: .1rem;
   color: #000;
@@ -60,7 +64,8 @@ span {
   line-height: .9;
   font-weight: 700;
   /* color: #9151ba; */
-  color: rgb(84, 75, 160);
+  /* color: rgb(90, 75, 200); */
+  color: #ab5160;
   text-shadow: 0 1px 60px #555;
   display: inline-block;
   min-width: 3rem;

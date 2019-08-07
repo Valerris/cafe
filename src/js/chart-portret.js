@@ -25,7 +25,7 @@
       lineColor: 'transparent',
       labels: {
         style: {
-          color: '#D4D6DC'
+          color: '#757575'
         }
       },
       categories: ['0-2 года', '3-5 лет', '6-10 лет', '11-15 лет', 'старше 15 лет', 'не указали возраст']
@@ -48,10 +48,10 @@
       enabled: false
     },
     "colors": [
-      "#FFBE02",
-      "#FE6102",
-      "#FFBE02",
-      "#F476BF",
+      "#25b8ec",
+      "#edb2cc",
+      "#60b4d4",
+      "#5763aa",
       "#9743B4",
       "#E77B73",
       "#F4CB59",
@@ -122,13 +122,13 @@
       lineColor: 'transparent',
       labels: {
         style: {
-          color: '#D4D6DC'
+          color: '#757575'
         }
       }
     },
     legend: {
       itemStyle: {
-        color: '#D4D6DC',
+        color: '#757575',
         fontWeight: 'bold'
       },
       itemHoverStyle: {
@@ -141,10 +141,10 @@
       enabled: false
     },
     "colors": [
-      "#FE6102",
-      "#02CCCB",
-      "#FFBE02",
-      "#5DA86B",
+      "#25b8ec",
+      "#edb2cc",
+      "#60b4d4",
+      "#5763aa",
       "#9743B4",
       "#E77B73",
       "#F4CB59",
@@ -184,7 +184,7 @@
           style: {
             textOutline: false
           },
-          color: 'white'
+          color: '#000'
         }
       }
     },
@@ -234,13 +234,13 @@
       lineColor: 'transparent',
       labels: {
         style: {
-          color: '#D4D6DC'
+          color: '#757575'
         }
       }
     },
     legend: {
       itemStyle: {
-        color: '#D4D6DC',
+        color: '#757575',
         fontWeight: 'bold'
       },
       itemHoverStyle: {
@@ -253,10 +253,10 @@
       enabled: false
     },
     "colors": [
-      "#FE6102",
-      "#02CCCB",
-      "#FFBE02",
-      "#5DA86B",
+      "#25b8ec",
+      "#edb2cc",
+      "#60b4d4",
+      "#5763aa",
       "#9743B4",
       "#E77B73",
       "#F4CB59",
@@ -296,7 +296,7 @@
           style: {
             textOutline: false
           },
-          color: 'white'
+          color: '#000'
         }
       }
     },
@@ -353,7 +353,7 @@
       lineColor: 'transparent',
       labels: {
         style: {
-          color: '#D4D6DC'
+          color: '#757575'
         }
       },
       categories: ['Идея', 'Прототип(альфа или бета версии)', 'Первые показатели', 'Динамичный рост пользователей', 'Устойчивые продажи', 'Другое']
@@ -376,10 +376,10 @@
       enabled: false
     },
     "colors": [
-      "#FFBE02",
-      "#FE6102",
-      "#FFBE02",
-      "#F476BF",
+      "#edb2cc",
+      "#25b8ec",
+      "#60b4d4",
+      "#5763aa",
       "#9743B4",
       "#E77B73",
       "#F4CB59",
@@ -407,7 +407,7 @@
           style: {
             textOutline: false
           },
-          color: 'white'
+          color: '#000'
         }
       }
     },

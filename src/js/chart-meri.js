@@ -7,7 +7,7 @@ Highcharts.chart('chart-meri', {
   title: {
     text: '',
     style: {
-      'color': '#D4D6DC'
+      'color': '#757575'
     }
   },
   credits: {
@@ -31,7 +31,7 @@ Highcharts.chart('chart-meri', {
     categories: ['Финансовая поддержка', 'Нет идей / Сами справимся', 'Построение каналов коммуникации', 'Четкие правила игры', 'Информационная поддержка', 'Госзаказы', 'Маркетинговая поддержка', 'Поиск клиентов', 'Юридическая поддержка', 'Государственные программы развития', 'Пилотные проекты с городом'],
     labels: {
       style: {
-        color: '#D4D6DC'
+        color: '#757575'
       }
     },
   },
@@ -54,12 +54,13 @@ Highcharts.chart('chart-meri', {
       },
       groupPadding: 0,
       pointPadding: 0,
-      pointWidth: 15
+      pointWidth: 15,
+      color: '#000'
     }
   },
   series: [{
     name: '',
-    color: "rgb(255, 190, 2)",
+    color: "#edb2cc",
     borderColor: 'transparent',
     dataLabels: [{
       align: 'right',
