@@ -20,6 +20,8 @@ html {
 *,
 *::before,
 *::after {
+  user-select: none;
+  -webkit-user-select: none;
   box-sizing: inherit;
 }
 
