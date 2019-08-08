@@ -189,9 +189,9 @@
     chart: {
       type: 'pie',
       backgroundColor: 'transparent',
-      spacing: [0, 0, 20, 0],
-      margin: [0, 0, 20, 0],
-      height: 225
+      spacing: [0, 0, 10, 0],
+      margin: [-30, 0, 0, 0],
+      height: 220
     },
     title: {
       text: ''
