@@ -2,10 +2,10 @@
 
 html {
   box-sizing: border-box;
-  font-size: calc(.55em + 1vh);
+  /* font-size: calc(.55em + 1vh); */
 }
 
-@media (min-width: 87.5em) {
+/* @media (min-width: 87.5em) {
   html {
     font-size: calc(.7em + 1vh);
   }
@@ -21,7 +21,7 @@ html {
   html {
     font-size: calc(.4em + 1vw);
   }
-}
+} */
 
 *,
 *::before,
@@ -70,8 +70,8 @@ h3 {
 
 p, li, small {
   color: inherit;
-  font-size: .725rem;
-  line-height: 1.3;
+  font-size: .9rem;
+  line-height: 1.2;
   margin: 0 0 1em;
   font-family: "Helvetica", sans-serif;
   /* color: #494949; */
@@ -90,8 +90,8 @@ li {
 
 b {
   font-family: 'Montserrat', sans-serif;
-  font-size: .8rem;
-  line-height: 1.1;
+  font-size: 1rem;
+  line-height: 1.3;
 }
 
 @media (max-width: 39.99em) {
