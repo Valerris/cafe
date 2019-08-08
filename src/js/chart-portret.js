@@ -192,6 +192,9 @@
       name: 'Brands',
       startAngle: 200,
       colorByPoint: true,
+      animation: {
+        duration: 1000
+      },
       data: [{
         name: 'FinTech',
         y: 59,
@@ -303,6 +306,9 @@
     series: [{
       name: 'Brands',
       startAngle: 0,
+      animation: {
+        duration: 1000
+      },
       colorByPoint: true,
       data: [{
         name: '10-20',
