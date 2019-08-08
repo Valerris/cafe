@@ -41,6 +41,7 @@ body {
   line-height: 1.33;
   word-spacing: .1rem;
   color: #000;
+  overflow-x: hidden;
 }
 
 h1, h3 {
