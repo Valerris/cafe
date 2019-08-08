@@ -5,8 +5,7 @@
     chart: {
       type: 'column',
       backgroundColor: 'transparent',
-      spacing: [0, 0, 0, 0],
-      height: 250
+      spacing: [0, 0, 0, 0]
     },
     title: {
       text: ''
@@ -24,6 +23,7 @@
     xAxis: {
       lineColor: 'transparent',
       labels: {
+        // rotation: -75,
         style: {
           color: '#757575'
         }
@@ -256,13 +256,13 @@
       enabled: false
     },
     "colors": [
-      "#7fa0e1",
-      "#edb2cc",
-      "#60b4d4",
-      "#6043d4",
-      "#9743B4",
-      "#E77B73",
-      "#F4CB59",
+      "#FFA69E",
+      "#C2BBF0",
+      "#8FB8ED",
+      "#62BFED",
+      "#94E8B4",
+      "#93E1D8",
+      "#93E1D8",
       "#91e8e1"
     ],
     plotOptions: {

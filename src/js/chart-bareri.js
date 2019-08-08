@@ -5,7 +5,7 @@
       type: 'bar',
       backgroundColor: 'transparent',
       spacing: [15, 0, 0, 0],
-      height: 435
+      height: 250
     },
     title: {
       text: ''
