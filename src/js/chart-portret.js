@@ -5,7 +5,8 @@
     chart: {
       type: 'column',
       backgroundColor: 'transparent',
-      spacing: [0, 0, 0, 0]
+      spacing: [0, 0, 0, 0],
+      height: 200
     },
     title: {
       text: ''
@@ -23,7 +24,6 @@
     xAxis: {
       lineColor: 'transparent',
       labels: {
-        // rotation: -75,
         style: {
           color: '#757575'
         }
@@ -99,7 +99,7 @@
       backgroundColor: 'transparent',
       spacing: [0, 0, 0, 0],
       margin: [0, 0, 0, 0],
-      height: 250
+      height: 200
     },
     title: {
       text: ''
@@ -212,9 +212,8 @@
     chart: {
       type: 'pie',
       backgroundColor: 'transparent',
-      // spacing: [50, 50, 50, 50],
-      // margin: [10, 10, 100, 10],
-      height: 300
+      spacing: [0, 0, 0, 0],
+      height: 200
     },
     title: {
       text: ''
@@ -340,7 +339,7 @@
       type: 'column',
       backgroundColor: 'transparent',
       spacing: [0, 0, 0, 0],
-      height: 280
+      height: 200
     },
     title: {
       text: ''

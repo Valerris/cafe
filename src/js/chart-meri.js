@@ -2,10 +2,10 @@
 
   Highcharts.chart('chart-meri', {
     chart: {
-      type: 'bar',
+      type: 'column',
       backgroundColor: 'transparent',
-      spacing: [25, 0, 0, 0],
-      height: 250
+      spacing: [15, 0, 35, 0],
+      height: 150
     },
     title: {
       text: ''
@@ -33,7 +33,7 @@
       min: 0,
       gridLineColor: 'transparent',
       lineColor: 'transparent',
-      max: 45,
+      max: 40,
       labels: false,
       verticalAlign: 'top',
       title: {

@@ -5,9 +5,15 @@ html {
   font-size: calc(.5em + 1vh);
 }
 
+@media (min-width: 87.5em) {
+  html {
+    font-size: calc(.65em + 1vh);
+  }
+}
+
 @media (max-width: 64em) {
   html {
-    font-size: calc(.3em + 1vw);
+    font-size: 1.2rem;
   }
 }
 
@@ -63,16 +69,22 @@ h3 {
 
 p, li, small {
   color: inherit;
-  font-size: .95rem;
-  line-height: 1.2;
-  margin: 1.2em 0;
-  font-family: "Montserrat", sans-serif;
+  font-size: .725rem;
+  line-height: 1.3;
+  margin: 0 0 1em;
+  font-family: "Helvetica", sans-serif;
   /* color: #494949; */
   color: #000;
 }
 
-p:first-of-type {
-  margin-top: 2em;
+li {
+  margin: .25em 0;
+}
+
+b {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8rem;
+  line-height: 1.1;
 }
 
 span {
@@ -90,7 +102,7 @@ span {
 small {
   display: block;
   color: inherit;
-  line-height: 2.25;
+  line-height: 1.2;
 }
 
 small>span {
@@ -236,6 +248,7 @@ p:first-of-type.header__text {
 
 .date {
   font-family: 'Raleway', sans-serif;
+  color: #383838;
   font-size: 2em;
   font-weight: 700;
   text-align: center;
@@ -246,7 +259,7 @@ p.date:first-of-type {
 }
 
 .divider {
-  margin: 1.5em 0;
+  margin: 1em 0;
 }
 
 @media (max-width: 39.99em) {
@@ -257,7 +270,7 @@ p.date:first-of-type {
 
 .divider--dash {
   border-bottom: 1px solid #c9c9c9;
-  margin: 5em 0;
+  margin: 2.5em 0;
 }
 
 .toggle {
