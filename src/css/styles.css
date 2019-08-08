@@ -2,12 +2,12 @@
 
 html {
   box-sizing: border-box;
-  font-size: calc(.5em + 1vh);
+  font-size: calc(.55em + 1vh);
 }
 
 @media (min-width: 87.5em) {
   html {
-    font-size: calc(.65em + 1vh);
+    font-size: calc(.7em + 1vh);
   }
 }
 
@@ -77,6 +77,12 @@ p, li, small {
   color: #000;
 }
 
+@media (max-width: 39.99em) {
+  p, li, small {
+    font-size: 1.2rem;
+  }
+}
+
 li {
   margin: .25em 0;
 }
@@ -85,6 +91,12 @@ b {
   font-family: 'Montserrat', sans-serif;
   font-size: .8rem;
   line-height: 1.1;
+}
+
+@media (max-width: 39.99em) {
+  b {
+    font-size: 1.3rem;
+  }
 }
 
 span {
@@ -161,7 +173,7 @@ small>span {
 p:first-of-type.header__text {
   margin: 0 1.5em;
   text-transform: uppercase;
-  font-size: .7rem;
+  font-size: .6rem;
 }
 
 .logo-container {

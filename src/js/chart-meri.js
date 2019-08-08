@@ -5,7 +5,7 @@
       type: 'column',
       backgroundColor: 'transparent',
       spacing: [15, 0, 35, 0],
-      height: 150
+      height: 175
     },
     title: {
       text: ''
