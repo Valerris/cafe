@@ -67,7 +67,8 @@ p, li {
   line-height: 1.2;
   margin: 1.2em 0;
   font-family: "Raleway", sans-serif;
-  color: #494949;
+  /* color: #494949; */
+  color: #000;
 }
 
 p:first-of-type {
@@ -89,6 +90,7 @@ span {
 small {
   display: block;
   color: inherit;
+  line-height: 2.25;
 }
 
 small>span {
@@ -254,7 +256,7 @@ p.date:first-of-type {
 }
 
 .divider--dash {
-  border-bottom: 1px solid #494949;
+  border-bottom: 1px solid #c9c9c9;
   margin: 5em 0;
 }
 

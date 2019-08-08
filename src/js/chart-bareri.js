@@ -4,8 +4,8 @@
     chart: {
       type: 'bar',
       backgroundColor: 'transparent',
-      spacing: [0, 0, 0, 0],
-      height: 325
+      spacing: [15, 0, 0, 0],
+      height: 435
     },
     title: {
       text: ''
