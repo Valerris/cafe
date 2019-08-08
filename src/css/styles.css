@@ -15,13 +15,13 @@ html {
   html {
     font-size: 1.2rem;
   }
-}
+} */
 
 @media (max-width: 39.99em) {
   html {
-    font-size: calc(.4em + 1vw);
+    font-size: calc(.45em + 1vw);
   }
-} */
+}
 
 *,
 *::before,
